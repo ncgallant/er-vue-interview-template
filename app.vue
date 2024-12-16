@@ -1,6 +1,8 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <Swimlane />
   </div>
 </template>
+<script setup lang="ts">
+import Swimlane from "~/components/swimlane.vue";
+</script>
