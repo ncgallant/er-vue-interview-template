@@ -1,8 +1,9 @@
 <template>
   <div>
-    <Swimlane />
+    <Form />
   </div>
 </template>
+
 <script setup lang="ts">
-import Swimlane from "~/components/swimlane.vue";
+import Form from "~/components/form.vue";
 </script>
